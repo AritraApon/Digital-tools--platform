@@ -47,7 +47,7 @@ const Pricing = () => {
                     {/* 2nd cart */}
                 </div>
                 {/* 2  */}
-                <div className="card px-5 bg-linear-to-r from-[#672df8] to-[#8a1af9] text-white  shadow-xl  transition-transform duration-300 ease-in-out 
+                <div className="card px-5 bg-linear-to-r from-[#672df8] to-[#8a1af9] text-white  shadow-xl shadow-blue-200 transition-transform duration-300 ease-in-out 
                 hover:scale-105">
                     <div className="card-body relative">
                         <span className="absolute -top-2 right-[50%] badge badge-xs badge-warning">Most Popular</span>
