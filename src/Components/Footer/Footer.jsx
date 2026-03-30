@@ -2,21 +2,32 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer sm:footer-horizontal bg-[#101727] text-white p-10">
+        <div className='bg-[#101727] '>
+            <footer className="w-10/12 mx-auto footer sm:footer-horizontal bg-[#101727]  py-20 text-[#ffffffc8]">
+                <nav>
+                    <h1 className='text-4xl font-bold'>DigiTools</h1>
+                    <p className='text-sm font-light text-[#ffffffc8]'>Premium digital tools for creators,<br /> professionals, and businesses. Work smarter <br />with our suite of powerful tools.</p>
+                </nav>
   <nav>
-    <h6 className="footer-title">Services</h6>
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+    <h6 className="footer-title">Product</h6>
+    <a className="link link-hover">Features</a>
+    <a className="link link-hover">Pricing</a>
+    <a className="link link-hover">Templates</a>
+    <a className="link link-hover">Integrations</a>
   </nav>
   <nav>
     <h6 className="footer-title">Company</h6>
-    <a className="link link-hover">About us</a>
+    <a className="link link-hover">About</a>
+    <a className="link link-hover">Blog</a>
+    <a className="link link-hover">Careers</a>
+    <a className="link link-hover">Press</a>
+  </nav>
+  <nav>
+    <h6 className="footer-title">Resources</h6>
+    <a className="link link-hover">Documentation</a>
+    <a className="link link-hover">Help Center</a>
+    <a className="link link-hover">Community</a>
     <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
   </nav>
   <nav>
     <h6 className="footer-title">Social</h6>
@@ -55,8 +66,18 @@ const Footer = () => {
         </svg>
       </a>
     </div>
+
   </nav>
+
 </footer>
+<div className='w-10/12 mx-auto border-t shadow-2xl  text-[#ffffffc8] flex flex-col md:flex-row justify-between p-5 pb-10'>
+    <p>© 2026 Digitools. All rights reserved.</p>
+  <div className='flex flex-col md:flex-row gap-4'>
+    <p>Privacy Policy                  </p>
+    <p>  Terms of Service  </p>
+    <p>Cookies</p>
+  </div>
+  </div>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const Hero = () => {
                             </span>
                         </h1>
 
-                        <p className="text-lg text-zinc-700 max-w-lg">
+                        <p className="text-lg text-zinc-700 max-w-lg ">
                             Access premium AI tools, design assets, templates, and productivity
                             software—all in one place. Start creating faster today.
                             Explore Products

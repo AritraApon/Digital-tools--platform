@@ -6,7 +6,7 @@ const Workflow = () => {
             <div>
                 <div className='text-center text-white space-y-3 mx-3'>
                     <h1 className='text-3xl text-white md:text-4xl font-bold'> Ready to Transform Your Workflow?</h1>
-                    <p className='font-extralight text-sm '>Join thousands of professionals who are already using Digitools to work smarter. <br />Start your free trial today.</p>
+                    <p className='font-extralight text-sm text-[#ffffffc8]'>Join thousands of professionals who are already using Digitools to work smarter. <br />Start your free trial today.</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 pt-4">
                     <button className="bg-white  transition-all px-5 py-4 rounded-full font-semibold text-sm shadow-xl shadow-blue-500/30 flex items-center gap-3 group ">
@@ -17,7 +17,7 @@ const Workflow = () => {
                     </button>
                 </div>
                 <div>
-                     <p className='text-center text-white mt-4 font-extralight text-sm '>14-day free trial • No credit card required • Cancel anytime</p>
+                     <p className='text-center  mt-4 font-extralight text-sm text-[#ffffffc8]'>14-day free trial • No credit card required • Cancel anytime</p>
                 </div>
             </div>
         </div>
