@@ -1,7 +1,9 @@
 import Hero from "./Components/Hero Banner/Hero"
 import Navbar from "./Components/Navbar/Navbar"
+import Pricing from "./Components/Pricing/Pricing"
 import StartsBanner from "./Components/StarsBanner/StartsBanner"
 import StepsCards from "./Components/StepsGuide/StepsCards"
+
 
 function App() {
 
@@ -10,12 +12,12 @@ function App() {
     <>
       <div className="container mx-auto">
         <Navbar />
-        <Hero/>
-        <StartsBanner/>
+        <Hero />
+        <StartsBanner />
 
 
-       <StepsCards/>
-
+        <StepsCards />
+        <Pricing/>
       </div>
     </>
   )

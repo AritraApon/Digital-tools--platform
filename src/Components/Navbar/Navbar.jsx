@@ -4,6 +4,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 const Navbar = () => {
     return (
         <div>
+            
             <div className=" navbar bg-base-100 shadow-sm py-5 flex-col md:flex-row gap-6">
                 <div className="navbar-start ">
                     <div className="dropdown">
@@ -23,7 +24,7 @@ const Navbar = () => {
 
                         </ul>
                     </div >
-                    <a className="md:mx-30 text-transparent bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9] text-4xl font-extrabold">
+                    <a className="md:mx-30 text-transparent bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9] text-4xl font-extrabold animate-bounce transition-transform duration-1000  ">
                         DigiTools
                     </a>
                 </div>

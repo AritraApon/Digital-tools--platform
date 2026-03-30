@@ -6,7 +6,7 @@ import RocketLogo from "../../assets/rocket.png"
 const StepsCards = () => {
     return (
         <div className='my-10 bg-[#f9fafc] py-10 md:py-20'>
-            <div className='text-center space-y-6'>
+            <div className='text-center space-y-6 mx-3'>
                 <h1 className='text-3xl md:text-5xl font-bold'> Get Started in 3 Steps</h1>
                 <p className='font-extralight '>Start using premium digital tools in minutes, not hours.</p>
             </div>
