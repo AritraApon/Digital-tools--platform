@@ -10,7 +10,7 @@ const StepsCards = () => {
                 <h1 className='text-3xl md:text-5xl font-bold'> Get Started in 3 Steps</h1>
                 <p className='font-extralight'>Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className='w-8/12 mx-auto my-10 flex flex-col lg:flex-row justify-center items-center gap-10'>
+            <div className='w-11/12 md:w-8/12 mx-auto my-10 flex flex-col lg:flex-row justify-center items-center gap-10'>
                 <div className='text-center bg-white shadow py-20 px-5 rounded-2xl relative transition-transform duration-300 ease-in-out 
                 hover:scale-105 border border-violet-500 hover:shadow-violet-600'>
                     <span className=" absolute top-2 right-3 text-right mx-3 bg-linear-to-r from-[#672df8] to-[#8a1af9] rounded-full font-bold py-2 px-4 text-white">

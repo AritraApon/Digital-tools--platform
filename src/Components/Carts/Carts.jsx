@@ -11,7 +11,7 @@ const Carts = ({ carts, setCats }) => {
     const total = carts.reduce((sum , price)=> sum + price.price ,0)
 
     return (
-        <div className='w-9/12 mx-auto p-6 rounded-2xl shadow  shadow-blue-300'>
+        <div className='w-11/12  md:w-9/12 mx-auto p-6 rounded-2xl shadow  shadow-blue-300'>
             <div className='mb-10'>
                 <h1 className='text-3xl font-bold'>Your Cart</h1>
                  <p className='text-right text-sm font-bold '>Total Price:

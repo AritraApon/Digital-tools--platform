@@ -8,7 +8,7 @@ const Pricing = () => {
                 <p className='font-extralight '>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
             {/* cards  */}
-            <div className='w-11/12 mx-auto my-10  flex flex-col lg:flex-row justify-center items-center gap-10'>
+            <div className=' mx-auto my-10  flex flex-col lg:flex-row justify-center items-center gap-10'>
                 {/* 1 */}
                 <div className="card px-5 bg-[#f9fafc] shadow-sm  transition-transform duration-300 ease-in-out 
                 hover:scale-105 border border-violet-500 hover:shadow-violet-600">
