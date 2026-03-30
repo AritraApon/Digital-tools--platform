@@ -1,6 +1,15 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const AddCart = ({ cart, carts }) => {
+const AddCart = ({ cart, carts ,setCats}) => {
+
+         const handelRemove = (carts) =>{
+            const filterCart = carts.filter(c => c.id !== cart.id)
+            console.log(filterCart)
+            setCats(filterCart)
+            toast.warn('Item removed from cart!')
+         }
+
     return (
         <div>
             <div className='flex flex-col md:flex-row justify-between items-center gap-5 p-3 rounded-2xl shadow bg-violet-50'>
@@ -15,7 +24,7 @@ const AddCart = ({ cart, carts }) => {
                     </div>
                 </div>
                 <div>
-                    <button className='font-bold text-red-600 hover:text-red-700 cursor-alias ' >Remove</button>
+                    <button onClick={()=>handelRemove(carts)} className='font-bold text-red-600 hover:text-red-700 cursor-pointer ' >Remove</button>
                 </div>
 
             </div>

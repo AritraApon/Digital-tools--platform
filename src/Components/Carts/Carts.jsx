@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const Carts = ({ carts, setCats }) => {
     const handleProceed = () => {
         setCats([])
-        toast.success('Successfully Order Proceed to CheckOut')
+        toast.success('Your order has been placed successfully! ')
     }
 
     const total = carts.reduce((sum , price)=> sum + price.price ,0)
@@ -24,7 +24,7 @@ const Carts = ({ carts, setCats }) => {
                 </> :<div>
                 <div className='space-y-5'>
                     {
-                        carts.map(cart => <AddCart key={cart.id} cart={cart} carts={carts} />)
+                        carts.map(cart => <AddCart key={cart.id} cart={cart} carts={carts} setCats={setCats} />)
                     }
                 </div>
                 <div className='flex justify-between mt-5'>

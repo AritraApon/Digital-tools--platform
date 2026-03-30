@@ -7,9 +7,9 @@ const ProductCart = ({ product,carts,setCats }) => {
         const handleBuyBtn = () =>{
             if(!isSelected){
                 setCats([...carts,product]);
-                toast.success(`${product.name } add to cart`)
+                toast.success(`${product.name } added to cart!`)
             }else{
-                toast.error(' Cart all ready Selected')
+                toast.error('Item already in cart!')
             }
         }
     return (
