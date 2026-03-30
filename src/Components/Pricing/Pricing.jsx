@@ -11,7 +11,7 @@ const Pricing = () => {
             <div className='w-11/12 mx-auto my-10  flex flex-col lg:flex-row justify-center items-center gap-10'>
                 {/* 1 */}
                 <div className="card px-5 bg-[#f9fafc] shadow-sm  transition-transform duration-300 ease-in-out 
-                hover:scale-105">
+                hover:scale-105 border border-violet-500 hover:shadow-violet-600">
                     <div className="card-body">
                         {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
                         <div className="">
@@ -48,9 +48,9 @@ const Pricing = () => {
                 </div>
                 {/* 2  */}
                 <div className="card px-5 bg-linear-to-r from-[#672df8] to-[#8a1af9] text-white  shadow-xl shadow-blue-200 transition-transform duration-300 ease-in-out 
-                hover:scale-105">
+                hover:scale-105 border border-violet-500 hover:shadow-violet-600">
                     <div className="card-body relative">
-                        <span className="absolute -top-2 right-[50%] badge badge-xs badge-warning">Most Popular</span>
+                        <span className="absolute top-0 right-1 transform -translate-x-1/2 -translate-y-1/2 badge badge-sm bg-yellow-200 border border-violet-500 shadow-violet-600 text-red-700 font-semibold">Most Popular</span>
                         <div className="">
                             <h2 className="text-xl font-bold">Pro</h2>
                              <p className='text-sm text-light'>Best for professionals </p>
@@ -94,7 +94,7 @@ const Pricing = () => {
                 </div>
                 {/* 3 */}
                 <div className="card px-5 bg-[#f9fafc] shadow-sm  transition-transform duration-300 ease-in-out 
-                hover:scale-105">
+                hover:scale-105 border border-violet-500 hover:shadow-violet-600">
                     <div className="card-body">
                         {/* <span className="badge badge-xs badge-warning">Most Popular</span> */}
                         <div className="">

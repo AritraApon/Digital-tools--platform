@@ -3,9 +3,9 @@ import { FaShoppingCart } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
-        <div>
-            
-            <div className=" navbar bg-base-100 shadow-sm py-5 flex-col md:flex-row gap-6">
+        <div className='bg-base-100 shadow-sm py-5 '>
+
+            <div className="w-10/12 mx-auto flex flex-col md:flex-row  gap-6">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,11 +24,11 @@ const Navbar = () => {
 
                         </ul>
                     </div >
-                    <a className="md:mx-30 text-transparent bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9] text-4xl font-extrabold animate-bounce transition-transform duration-1000  ">
-                        DigiTools
+                    <a className=" text-transparent bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9] text-4xl font-extrabold animate-pulse   ">
+                        <span >DigiTools</span>
                     </a>
                 </div>
-                <div className="navbar-center  hidden lg:flex md:mx-30">
+                <div className="navbar-center  hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1 text-black font-bold ">
                         <li className='hover:text-violet-700'><a>Products</a></li>
                             <li className='hover:text-violet-700'>
@@ -39,7 +39,7 @@ const Navbar = () => {
                             <li className='hover:text-violet-700'><a>FAQ</a></li>
                     </ul>
                 </div>
-                <div className=" md:mx-30 navbar-end gap-5 ">
+                <div className="  navbar-end gap-6 mx-20 md:mx-0 justify-between md:justify-center">
                      <div className="relative">
             <div className=" text-xl  rounded-full hover:text-violet-700">
               <FaShoppingCart/>

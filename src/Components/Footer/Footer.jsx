@@ -70,7 +70,7 @@ const Footer = () => {
   </nav>
 
 </footer>
-<div className='w-10/12 mx-auto border-t shadow-2xl  text-[#ffffffc8] flex flex-col md:flex-row justify-between p-5 pb-10'>
+<div className='w-10/12 mx-auto border-t shadow-2xl  text-[#ffffffc8] flex flex-col md:flex-row justify-between p-5 pb-10 gap-4'>
     <p>© 2026 Digitools. All rights reserved.</p>
   <div className='flex flex-col md:flex-row gap-4'>
     <p>Privacy Policy                  </p>

@@ -9,15 +9,17 @@ const Workflow = () => {
                     <p className='font-extralight text-sm text-[#ffffffc8]'>Join thousands of professionals who are already using Digitools to work smarter. <br />Start your free trial today.</p>
                 </div>
                 <div className="flex justify-center items-center gap-4 pt-4">
-                    <button className="bg-white  transition-all px-5 py-4 rounded-full font-semibold text-sm shadow-xl shadow-blue-500/30 flex items-center gap-3 group ">
+                    <button className="bg-white transition-all px-5 py-4 rounded-full font-semibold text-sm shadow-xl shadow-blue-500/30 flex items-center gap-3 group hover:shadow-violet-400 hover:bg-[#fdecec]  duration-300 ease-in-out 
+                hover:scale-105 ">
                         <span className='bg-linear-to-r from-[#672df8] to-[#8a1af9] text-transparent bg-clip-text '>Explore Products</span>
                     </button>
-                    <button className='flex items-center gap-3 px-6 py-4 rounded-full font-semibold text-sm border border-white  bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9]  text-white'>
+                    <button className='flex items-center gap-3 px-6 py-4 rounded-full font-semibold text-sm border border-white  bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9]  text-white animate-pulse hover:border-red-700 hover:border-3 transition-transform duration-300 ease-in-out 
+                hover:scale-105  '>
                           View Pricing
                     </button>
                 </div>
                 <div>
-                     <p className='text-center  mt-4 font-extralight text-sm text-[#ffffffc8]'>14-day free trial • No credit card required • Cancel anytime</p>
+                     <p className='text-center  mt-6 font-extralight text-sm text-[#ffffffc8]'>14-day free trial • No credit card required • Cancel anytime</p>
                 </div>
             </div>
         </div>
