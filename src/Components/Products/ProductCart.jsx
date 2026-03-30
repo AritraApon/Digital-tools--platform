@@ -1,11 +1,21 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const ProductCart = ({ product }) => {
+const ProductCart = ({ product,carts,setCats }) => {
+        const isSelected = carts.find(p=> product.id === p.id)
 
+        const handleBuyBtn = () =>{
+            if(!isSelected){
+                setCats([...carts,product]);
+                toast.success(`${product.name } add to cart`)
+            }else{
+                toast.error(' Cart all ready Selected')
+            }
+        }
     return (
         <div>
 
-            <div className="card  bg-white rounded-2xl  shadow-sm  transition-transform duration-300 ease-in-out 
+            <div className="card  bg-white rounded-2xl  shadow-lg  transition-transform duration-300 ease-in-out 
                 hover:scale-105 border border-violet-500 hover:shadow-violet-600">
 
                 <div className="card-body relative">
@@ -45,7 +55,8 @@ const ProductCart = ({ product }) => {
 
                     </ul>
                     <div className="mt-6">
-                        <button className="btn bg-linear-to-r from-[#672df8] to-[#8a1af9] rounded-full text-white  hover:from-pink-500 w-full hover:to-red-500  ">Buy Now </button>
+                        <button onClick={handleBuyBtn} className={`btn  w-full text-white ${isSelected ? ' bg-linear-to-r from-pink-500  to-red-500  ' : 'bg-linear-to-r from-[#672df8] to-[#8a1af9] '} rounded-full `}>
+                            {isSelected ? ' Adding to Cart' : 'Buy Now'} </button>
                     </div>
                 </div>
 

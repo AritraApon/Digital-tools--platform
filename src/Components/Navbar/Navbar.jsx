@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = ({carts}) => {
     return (
-        <div className='bg-base-100 shadow-sm py-5 '>
+        <div className='bg-base-100 shadow shadow-blue-200 py-5 '>
 
             <div className="w-10/12 mx-auto flex flex-col md:flex-row  gap-6">
                 <div className="navbar-start ">
@@ -41,16 +41,16 @@ const Navbar = () => {
                 </div>
                 <div className="  navbar-end gap-6 mx-20 md:mx-0 justify-between md:justify-center">
                      <div className="relative">
-            <div className=" text-xl  rounded-full hover:text-violet-700">
+            <div className=" text-2xl  rounded-full hover:text-violet-700">
               <FaShoppingCart/>
             </div>
 
 
-            {/* {carts.length > 0 && (
-              <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+            {carts.length > 0 && (
+              <span className="absolute -top-2 -right-2 bg-violet-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
                 {carts.length}
               </span>
-            )} */}
+            )}
           </div>
                     <a href="" className='text-black font-bold hover:text-violet-700'>Login</a>
                     <a className="btn bg-linear-to-r from-[#672df8] to-[#8a1af9] rounded-full text-white  hover:from-pink-500 hover:to-red-500  ">   Get Started</a>
