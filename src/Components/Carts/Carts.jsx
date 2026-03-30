@@ -15,7 +15,7 @@ const Carts = ({ carts, setCats }) => {
             <div className='mb-10'>
                 <h1 className='text-3xl font-bold'>Your Cart</h1>
                  <p className='text-right text-sm font-bold '>Total Price:
-                    <span className='bg-blue-700 text-white p-2 rounded-2xl'> $ {total}</span></p>
+                    <span className='text-blue-700  '> $ {total}</span></p>
             </div>
 
             {
