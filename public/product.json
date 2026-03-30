@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Pro",
+    "description": "AI-powered resume builder with ATS optimization and modern templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions",
+      "Cover letter generator"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "DesignFlow",
+    "description": "Online UI/UX design platform with collaboration and prototyping tools.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Real-time collaboration",
+      "Design components",
+      "Auto layout",
+      "Export assets",
+      "Cloud storage"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "CodeBoost",
+    "description": "Developer productivity tool with snippets, debugging, and AI coding help.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Code snippets library",
+      "AI code suggestions",
+      "Debugging tools",
+      "Project templates",
+      "Git integration"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "SocialPilot Lite",
+    "description": "Social media scheduling and analytics platform for creators.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Schedule posts",
+      "Analytics dashboard",
+      "Multi-platform support",
+      "Hashtag suggestions",
+      "Content calendar"
+    ],
+    "icon": "📱"
+  },
+  {
+    "id": 5,
+    "name": "InvoiceMate",
+    "description": "Simple invoicing and billing tool for freelancers and agencies.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "Unlimited invoices",
+      "Payment tracking",
+      "Client management",
+      "PDF export",
+      "Tax calculation"
+    ],
+    "icon": "🧾"
+  },
+  {
+    "id": 6,
+    "name": "CloudNote",
+    "description": "Smart note-taking app with AI summaries and team collaboration.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "AI summaries",
+      "Real-time sync",
+      "Team sharing",
+      "Markdown support",
+      "Offline access"
+    ],
+    "icon": "📝"
+  }
+]
