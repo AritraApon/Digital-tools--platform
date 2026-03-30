@@ -1,6 +1,7 @@
 import Hero from "./Components/Hero Banner/Hero"
 import Navbar from "./Components/Navbar/Navbar"
 import StartsBanner from "./Components/StarsBanner/StartsBanner"
+import StepsCards from "./Components/StepsGuide/StepsCards"
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
         <Hero/>
         <StartsBanner/>
 
+
+       <StepsCards/>
 
       </div>
     </>

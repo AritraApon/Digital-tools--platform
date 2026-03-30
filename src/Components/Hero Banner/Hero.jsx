@@ -34,7 +34,7 @@ const Hero = () => {
                             <button className="bg-linear-to-r from-[#672df8] to-[#8a1af9] hover:from-pink-500 hover:to-red-500  transition-all px-5 py-4 rounded-full font-semibold text-lg shadow-xl shadow-blue-500/30 flex items-center gap-3 group text-white">
                                 Explore Products
                             </button>
-                            <button className='flex items-center gap-3 px-5 py-4 rounded-full font-semibold text-lg border-2 border-violet-700 text-transparent bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9] hover:border-red-600 hover:text-red-600 '>
+                            <button className='flex items-center gap-3 px-5 py-4 rounded-full font-semibold text-lg border-2 border-violet-700 text-transparent bg-clip-text bg-linear-to-r from-[#672df8] to-[#8a1af9] hover:border-red-600 hover:text-red-600 animate-pulse '>
                                <img src={Vector} alt=""  />  Watch Demo
                             </button>
                         </div>
