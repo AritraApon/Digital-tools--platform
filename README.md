@@ -37,6 +37,17 @@ Digital Tools Platform is a responsive React-based web application that showcase
 * 🚩In this section the total of the selected products ( added on the carts) will show here.
 
 ---
+## 📸 Screenshot
+<img width="1916" height="1016" alt="image" src="https://github.com/user-attachments/assets/3f0f902d-af52-429b-a6df-4cd6eb68364f" />
+<img width="1907" height="623" alt="image" src="https://github.com/user-attachments/assets/5082c584-5214-49ff-9bbf-b69cc0b8a470" />
+<img width="1903" height="1027" alt="image" src="https://github.com/user-attachments/assets/566c0486-adb6-4a0f-9d32-d74a3cf1b1a8" />
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/731846c2-f31b-4193-8474-f1ee624231e7" />
+<img width="1918" height="787" alt="image" src="https://github.com/user-attachments/assets/217192a6-2b89-4db5-ac5d-8e4a0fc2a0b2" />
+<img width="1892" height="987" alt="image" src="https://github.com/user-attachments/assets/35b1b063-61ad-40d4-81e3-b79fe95637b0" />
+<img width="1898" height="943" alt="image" src="https://github.com/user-attachments/assets/2920d944-9f43-41bc-8fe9-11315d314702" />
+
+---
+---
 
 ## 📂 JSON Data
 
@@ -148,17 +159,6 @@ Digital Tools Platform is a responsive React-based web application that showcase
 ]
 }
 ```
-
----
-
-## 📸 Screenshot
-<img width="1916" height="1016" alt="image" src="https://github.com/user-attachments/assets/3f0f902d-af52-429b-a6df-4cd6eb68364f" />
-<img width="1907" height="623" alt="image" src="https://github.com/user-attachments/assets/5082c584-5214-49ff-9bbf-b69cc0b8a470" />
-<img width="1903" height="1027" alt="image" src="https://github.com/user-attachments/assets/566c0486-adb6-4a0f-9d32-d74a3cf1b1a8" />
-<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/731846c2-f31b-4193-8474-f1ee624231e7" />
-<img width="1918" height="787" alt="image" src="https://github.com/user-attachments/assets/217192a6-2b89-4db5-ac5d-8e4a0fc2a0b2" />
-<img width="1892" height="987" alt="image" src="https://github.com/user-attachments/assets/35b1b063-61ad-40d4-81e3-b79fe95637b0" />
-<img width="1898" height="943" alt="image" src="https://github.com/user-attachments/assets/2920d944-9f43-41bc-8fe9-11315d314702" />
 
 ---
 
